@@ -1,0 +1,31 @@
+{
+  "name": "automation-cypress",
+  "version": "1.0.0",
+  "description": "Automation Testing Via Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --e2e --browser chrome"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZainabNoor123/Cypress-Udemy.git"
+  },
+  "keywords": [
+    "cypress",
+    "JavaScript",
+    "TypeScript",
+    "Testing",
+    "Automation"
+  ],
+  "author": "Zainab Noor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZainabNoor123/Cypress-Udemy/issues"
+  },
+  "homepage": "https://github.com/ZainabNoor123/Cypress-Udemy#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "typescript": "^5.0.2"
+  }
+}
