@@ -25,9 +25,7 @@
   "homepage": "https://github.com/ZainabNoor123/Cypress-Udemy#readme",
   "devDependencies": {
     "cypress": "^12.9.0",
+    "cypress-xpath": "^2.0.1",
     "typescript": "^5.0.2"
-  },
-  "dependencies": {
-    "@cypress/xpath": "^2.0.3"
   }
 }

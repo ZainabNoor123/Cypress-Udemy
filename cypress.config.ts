@@ -8,4 +8,5 @@ export default defineConfig({
     },
    baseUrl: "http://uitestingplayground.com"
   },
+  pageLoadTimeout: 6000,
 });
