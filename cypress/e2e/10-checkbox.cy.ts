@@ -12,6 +12,9 @@ describe.only('The internet app', () => {
     beforeEach(()=>{
         cy.visit(`${Cypress.env("theInternet")}checkboxes`)
     })
+
+
+
     it('checkboc scenerio', () => {
         cy.get('form#checkboxes input').eq(0).click().should("be.checked")
     });
