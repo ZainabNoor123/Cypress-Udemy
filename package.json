@@ -4,7 +4,7 @@
   "description": "Automation Testing Via Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open --e2e --browser chrome"
+    "test": "cypress open --e2e --browser chrome --env secondVar=Helllo_from_Package_File"
   },
   "repository": {
     "type": "git",

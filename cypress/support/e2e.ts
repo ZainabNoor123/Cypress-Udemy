@@ -1,5 +1,4 @@
-require('cypress-xpath')
-import "cypress-real-events";
+
 
 // ***********************************************************
 // This example support/e2e.ts is processed and
@@ -18,7 +17,9 @@ import "cypress-real-events";
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+import "./exceptions"
+import "cypress-real-events";
+require('cypress-xpath')
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
